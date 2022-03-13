@@ -24,9 +24,8 @@ cat  $1 | slowcat | nc {SERVER IP} {SERVER PORT}<br>
 <br>
 </p>
 #do sleep .15 is how you can set the delay 
-
 #now exit and save the test.sh 
-<hr>
+
 <p>
 nano /home/steam/batch
 </p>
