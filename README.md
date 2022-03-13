@@ -32,7 +32,7 @@ nano /home/steam/batch
 <hr>
 <p>
   {RCON PASSWORD CONVERTED TO MD5 HASH}<br>
-  ResetSnd<br>
+  {RCON CMD}<br>
   {RCON CMD}<br>
   Disconnect<br>
 </p>
