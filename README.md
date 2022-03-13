@@ -8,7 +8,7 @@
 
 #First be aware that connecting and disconnecting a lot can hurt server preformance  
 
-#first you need to make a bash script 
+#first you need to make a shell script 
 
 <p>
 nano /home/steam/test.sh
@@ -30,13 +30,14 @@ cat  $1 | slowcat | nc {SERVER IP} {SERVER PORT}<br>
 <p>
 nano /home/steam/batch
 </p>
+<hr>
 <p>
   {RCON PASSWORD CONVERTED TO MD5 HASH}<br>
   ResetSnd<br>
   {RCON CMD}<br>
   Disconnect<br>
 </p>
-
+<hr>
 <p>
 # here the first line has to be the rcon password converted to MD5 HASH<br>
 # https://www.md5hashgenerator.com/<br>
