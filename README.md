@@ -16,9 +16,9 @@ nano test.sh
 <hr>
 <p>
 
-#!/bin/bash
-function slowcat(){ while read; do sleep .15; echo "$REPLY"; done; }
-cat  $1 | slowcat | nc {SERVER IP} {SERVER PORT}
+#!/bin/bash<br>
+function slowcat(){ while read; do sleep .15; echo "$REPLY"; done; }<br>
+cat  $1 | slowcat | nc {SERVER IP} {SERVER PORT}<br>
 <hr>
 <br>
 </p>
@@ -30,10 +30,10 @@ cat  $1 | slowcat | nc {SERVER IP} {SERVER PORT}
 nano batch
 </p>
 <p>
-  {RCON PASSWORD CONVERTED TO MD5 HASH}
-  ResetSnd
-  {RCON CMD}
-  Disconnect
+  {RCON PASSWORD CONVERTED TO MD5 HASH}<br>
+  ResetSnd<br>
+  {RCON CMD}<br>
+  Disconnect<br>
 </p>
 
 # here the first line has to be the rcon password converted to MD5 HASH
