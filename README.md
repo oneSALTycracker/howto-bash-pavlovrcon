@@ -6,7 +6,7 @@
 
 #but it was not very detailed so here is how to do it. also i am very new to all this so if i could do something better please let me know 
 
-#First be aware that connecting and disconnecting a lot can hurt server preformance  
+#First be aware that connecting and disconnecting a lot can hurt server performance
 
 #first you need to make a shell script 
 
