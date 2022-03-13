@@ -36,10 +36,15 @@ nano batch
   Disconnect<br>
 </p>
 
+<p>
 # here the first line has to be the rcon password converted to MD5 HASH
 # https://www.md5hashgenerator.com/
 # then each line after that u can use any rcon commands
 # the last line must be disconnect 
+</p>
 
+<p>
+# now we need to give 
+</p>
  
 
