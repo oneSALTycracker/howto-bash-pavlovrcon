@@ -11,7 +11,8 @@
 #first you need to make a bash script 
 
 <p>
-nano test.sh 
+nano /home/steam/test.sh
+
 </p>
 <hr>
 <p>
@@ -27,7 +28,7 @@ cat  $1 | slowcat | nc {SERVER IP} {SERVER PORT}<br>
 #now exit and save the test.sh 
 <hr>
 <p>
-nano batch
+nano /home/steam/batch
 </p>
 <p>
   {RCON PASSWORD CONVERTED TO MD5 HASH}<br>
@@ -37,14 +38,21 @@ nano batch
 </p>
 
 <p>
-# here the first line has to be the rcon password converted to MD5 HASH
-# https://www.md5hashgenerator.com/
-# then each line after that u can use any rcon commands
-# the last line must be disconnect 
+# here the first line has to be the rcon password converted to MD5 HASH<br>
+# https://www.md5hashgenerator.com/<br>
+# then each line after that u can use any rcon commands<br>
+# the last line must be disconnect <br>
 </p>
 
 <p>
-# now we need to give 
+# now we need to give the sh permissions to run <br>
+sudo chmod +x /home/steam/test.sh
 </p>
  
-
+<p>
+#now we need to run the bash script <br>
+./home/steam/test.sh /home/steam/batch<br>
+</p>
+<p>
+#so to run the script we need to ./ the .sh then after a space we need to pass the batch <br>
+</p>
